@@ -1,0 +1,187 @@
+
+
+.page-title {
+    padding-top: 90px;
+    background-color: #ECE4DF;
+}
+
+.page-title__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.title-product {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.img-product {
+    /* width: auto;
+    height: 145px; */
+    width: 33%;
+}
+
+.products {
+    padding: 50px 0;
+}
+
+.products__item {
+    margin-bottom: 60px;
+}
+
+.pagination {
+    margin-bottom: 110px;
+}
+
+.pagination-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.page-item{
+    margin: 0 10px;
+}
+
+.pagination-list a {
+    padding: 10px 16px;
+    color: #BBACA2;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 53px;
+    border: 2px solid #BBACA2;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 1px;
+}
+
+.pagination-list a:hover {
+    cursor: pointer;
+    background-color: #BBACA2;
+    color: #fff;
+}
+
+.contatcts-info {
+    
+}
+
+.contatcts-info-container {
+    padding-top: 60px;
+    padding-bottom: 110px;
+    background-image: url(../img/bg-contact.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position-x: right;
+}
+
+.info-item {
+    margin-bottom: 60px;
+}
+
+
+.info-item-title {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.info-item a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-item {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.paydel {
+    padding: 60px 0;
+}
+
+.paydel-info-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 60px;
+}
+
+.paydel-item-img {
+    margin-right: 100px;
+}
+
+.paydel-item-descr,
+.order-info-descr,
+.order-info-list {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.order-info {
+    padding: 60px 0;
+}
+
+.order-info-list li::marker {
+    font-weight: bold;
+}
+
+.order-info-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1068px) {
+    .paydel-info-item {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+
+    .paydel-item-img {
+        margin-right: 15px;
+    }
+
+    .page-title__container {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    .title-product {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
